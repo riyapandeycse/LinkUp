@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import profileimage from './assets/Linkedln profile image.jpg';
 import { PostComponent } from './post';
-import stop from './stop';
 import Notification from './Notification';
+import Tab from './Tab';
 
 function App() {
 
@@ -36,7 +36,8 @@ function App() {
           </div>
         </div>
       </div> */}
-      <Notification/>
+      {/* <Notification/> */}
+      <Tab/>
     </div>
   )
 }
