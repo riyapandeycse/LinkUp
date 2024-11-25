@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import profileimage from './assets/Linkedln profile image.jpg';
 import { PostComponent } from './post';
-import Notification from './Notification';
-import Tab from './Tab';
+import Card from './Card';
 
 function App() {
 
@@ -36,8 +35,19 @@ function App() {
           </div>
         </div>
       </div> */}
-      {/* <Notification/> */}
-      <Tab/>
+      <Card>
+        <div style={{alignContent:"center"}}>
+          Hi there
+        </div>
+      </Card>
+      <Card>
+        <span>
+          hello !! 
+          send your post here
+          <input type='text'></input>
+        </span>
+      </Card>
+
     </div>
   )
 }

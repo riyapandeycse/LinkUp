@@ -6,6 +6,7 @@ export default function Tab() {
     useEffect(()=>{
          // send the fetch request to fetch data from the backend.
          // this fetchind data is the side effect of what we want.
+         
          console.log("send the data request for" + currenttab);
     },[currenttab])
   return (
